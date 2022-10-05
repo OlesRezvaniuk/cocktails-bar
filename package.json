@@ -2,14 +2,14 @@
   "name": "parcel-project-template",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://vokoloven.github.io/hardcore-bar",
+  "homepage": "https://OlesRezvaniuk.github.io/cocktails-bar",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /hardcore-bar/"
+    "build": "parcel build src/*.html --public-url /cocktails-bar/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/goitacademy/parcel-project-template.git"
+    "url": "git+https://github.com/OlesRezvaniuk/cocktails-bar.git"
   },
   "keywords": [],
   "author": "Alexander Repeta <alexander.repeta@gmail.com>",
