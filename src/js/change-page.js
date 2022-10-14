@@ -16,6 +16,9 @@ const refsNav = {
     'body > header > div > div.header__menu.header__menu--is-hidden > nav > ul > li.header__nav-item.header__nav-item--menu'
   ),
   btnToSearch: document.querySelector('#header > div > a'),
+  headerMenuBox: document.querySelector(
+    '#header > div > div.header__favorite-box'
+  ),
 };
 
 refsNav.favoriteCocktailsBtn.addEventListener(
@@ -47,6 +50,7 @@ function onClickFavoriteCocktailsBtn() {
   refsNav.closeIconEl.classList.toggle('header__icon-menu--is-hidden');
   refsNav.headerIconMenuEl.classList.toggle('header__icon-menu--is-hidden');
   inputIsHiddenEl.classList.toggle('inputMenu--is-hidden');
+  refsNav.headerMenuBox.classList.add('header__favorite-box-is-hidden');
 }
 function onClickFavoriteIngridientsBtn() {
   refsNav.favoriteCocktailsPage.classList.add('hidden-page');
@@ -57,4 +61,5 @@ function onClickFavoriteIngridientsBtn() {
   refsNav.closeIconEl.classList.toggle('header__icon-menu--is-hidden');
   refsNav.headerIconMenuEl.classList.toggle('header__icon-menu--is-hidden');
   inputIsHiddenEl.classList.toggle('inputMenu--is-hidden');
+  refsNav.headerMenuBox.classList.add('header__favorite-box-is-hidden');
 }
